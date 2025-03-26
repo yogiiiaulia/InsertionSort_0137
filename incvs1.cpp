@@ -36,7 +36,7 @@ void insertionSort()
 {
 
 
-    int tempt;
+    int temp;
     int j, i;
     for (i - 1; i <= n - 1; i++)
     {
@@ -47,7 +47,7 @@ void insertionSort()
         arr [j+ 1] = arr [j];
         j--; 
         }
-        arr [j + 1] = tempt;
+        arr [j + 1] = temp;
     }
 }
 
@@ -61,9 +61,18 @@ void display()
     cout << "element array yang telah tersusun" << endl;
     cout << "=========" << endl;
     
-    for (int j = 0; j < n; J++)
+    for (int j = 0; j < n; j++)
     {
         cout << arr [j] << endl;
     }
     cout << endl;
+}
+
+int main()
+{
+    input();
+    insertionSort();
+    display();
+    system("pause");
+    return 0;
 }
