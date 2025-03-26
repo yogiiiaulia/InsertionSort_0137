@@ -50,3 +50,20 @@ void insertionSort()
         arr [j + 1] = tempt;
     }
 }
+
+
+void display()
+{
+    cout << endl;
+    cout << "=========" << endl;
+    cout << "total passs = " << n - 1 << endl;
+    cout << "=========" << endl;
+    cout << "element array yang telah tersusun" << endl;
+    cout << "=========" << endl;
+    
+    for (int j = 0; j < n; J++)
+    {
+        cout << arr [j] << endl;
+    }
+    cout << endl;
+}
