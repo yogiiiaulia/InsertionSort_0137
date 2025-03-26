@@ -51,7 +51,6 @@ void insertionSort()
     }
 }
 
-
 void display()
 {
     cout << endl;
